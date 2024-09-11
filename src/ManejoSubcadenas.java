@@ -1,6 +1,7 @@
 public class ManejoSubcadenas {
     public static void main(String[] args) {
         //Tema de subcadenas
+        //substring(inicio,fin(sin incluirlo))
         var cadena1="Hola Mundo";
         System.out.println("cadena1 = " + cadena1);
 
@@ -9,7 +10,7 @@ public class ManejoSubcadenas {
         System.out.println("subcadena = " + subcadena1);
 
         //Subcadena de Mundo
-        var subcadena2=cadena1.substring(5);
+        var subcadena2=cadena1.substring(5,10);
         System.out.println("subcadena2 = " + subcadena2);
     }
 }
